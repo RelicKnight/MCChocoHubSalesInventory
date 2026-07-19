@@ -52,4 +52,14 @@
     Private Sub TeachersSettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeachersSettingsToolStripMenuItem.Click
 
     End Sub
+
+    Private Sub TeachersFineToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeachersFineToolStripMenuItem.Click
+        FinesTeacher.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub StudentsFineToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StudentsFineToolStripMenuItem.Click
+        FinesStudents.Show()
+        Me.Hide()
+    End Sub
 End Class
