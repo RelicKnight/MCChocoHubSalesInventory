@@ -80,10 +80,10 @@ Partial Class PublisherMaintenance
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
         Guna2DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView1.Location = New Point(55, 358)
+        Guna2DataGridView1.Location = New Point(55, 320)
         Guna2DataGridView1.Name = "Guna2DataGridView1"
         Guna2DataGridView1.RowHeadersVisible = False
-        Guna2DataGridView1.Size = New Size(1480, 549)
+        Guna2DataGridView1.Size = New Size(1158, 549)
         Guna2DataGridView1.TabIndex = 45
         Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
         Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 12F)
@@ -106,7 +106,7 @@ Partial Class PublisherMaintenance
         Guna2TextBox3.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2TextBox3.ForeColor = Color.Maroon
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(55, 297)
+        Guna2TextBox3.Location = New Point(55, 259)
         Guna2TextBox3.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox3.Name = "Guna2TextBox3"
         Guna2TextBox3.PlaceholderForeColor = Color.Maroon
@@ -128,7 +128,7 @@ Partial Class PublisherMaintenance
         Guna2Button4.FillColor = Color.Maroon
         Guna2Button4.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button4.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button4.Location = New Point(1351, 177)
+        Guna2Button4.Location = New Point(1033, 153)
         Guna2Button4.Name = "Guna2Button4"
         Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2Button4.Size = New Size(180, 45)
@@ -147,7 +147,7 @@ Partial Class PublisherMaintenance
         Guna2Button3.FillColor = Color.Maroon
         Guna2Button3.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button3.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button3.Location = New Point(1109, 177)
+        Guna2Button3.Location = New Point(791, 153)
         Guna2Button3.Name = "Guna2Button3"
         Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         Guna2Button3.Size = New Size(180, 45)
@@ -166,7 +166,7 @@ Partial Class PublisherMaintenance
         Guna2Button2.FillColor = Color.Maroon
         Guna2Button2.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button2.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button2.Location = New Point(1351, 97)
+        Guna2Button2.Location = New Point(1033, 93)
         Guna2Button2.Name = "Guna2Button2"
         Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         Guna2Button2.Size = New Size(180, 45)
@@ -185,7 +185,7 @@ Partial Class PublisherMaintenance
         Guna2Button1.FillColor = Color.Maroon
         Guna2Button1.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button1.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button1.Location = New Point(1109, 97)
+        Guna2Button1.Location = New Point(791, 93)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2Button1.Size = New Size(180, 45)
@@ -207,7 +207,7 @@ Partial Class PublisherMaintenance
         Guna2TextBox2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2TextBox2.ForeColor = Color.Maroon
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(51, 174)
+        Guna2TextBox2.Location = New Point(51, 157)
         Guna2TextBox2.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PlaceholderForeColor = Color.Maroon
@@ -268,7 +268,7 @@ Partial Class PublisherMaintenance
         Guna2TextBox4.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2TextBox4.ForeColor = Color.Maroon
         Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Location = New Point(415, 97)
+        Guna2TextBox4.Location = New Point(388, 97)
         Guna2TextBox4.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox4.Name = "Guna2TextBox4"
         Guna2TextBox4.PlaceholderForeColor = Color.Maroon
@@ -293,7 +293,7 @@ Partial Class PublisherMaintenance
         Guna2TextBox5.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2TextBox5.ForeColor = Color.Maroon
         Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox5.Location = New Point(415, 174)
+        Guna2TextBox5.Location = New Point(388, 157)
         Guna2TextBox5.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox5.Name = "Guna2TextBox5"
         Guna2TextBox5.PlaceholderForeColor = Color.Maroon
@@ -308,7 +308,7 @@ Partial Class PublisherMaintenance
         AutoScaleDimensions = New SizeF(9F, 21F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Pink
-        ClientSize = New Size(1588, 944)
+        ClientSize = New Size(1285, 895)
         Controls.Add(Guna2TextBox5)
         Controls.Add(Guna2TextBox4)
         Controls.Add(Guna2DataGridView1)

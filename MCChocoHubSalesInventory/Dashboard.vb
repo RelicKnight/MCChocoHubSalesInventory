@@ -23,4 +23,18 @@
         PublisherMaintenance.Show()
         Me.Hide()
     End Sub
+
+    Private Sub LibrarianMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LibrarianMaintenanceToolStripMenuItem.Click
+        LibrarianMaintenance.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub TeacherMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeacherMaintenanceToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub StudentMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StudentMaintenanceToolStripMenuItem.Click
+        StudentMaintenance.Show()
+        Me.Hide()
+    End Sub
 End Class
