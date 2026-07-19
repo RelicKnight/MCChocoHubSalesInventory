@@ -47,6 +47,9 @@ Partial Class Dashboard
         LibrarianMaintenanceToolStripMenuItem = New ToolStripMenuItem()
         TeacherMaintenanceToolStripMenuItem = New ToolStripMenuItem()
         StudentMaintenanceToolStripMenuItem = New ToolStripMenuItem()
+        GenreMaintenanceToolStripMenuItem = New ToolStripMenuItem()
+        SectionMaintenanceToolStripMenuItem = New ToolStripMenuItem()
+        GradeLevelMaintenanceToolStripMenuItem = New ToolStripMenuItem()
         LibrarianProfileToolStripMenuItem = New ToolStripMenuItem()
         TeachersSettingsToolStripMenuItem = New ToolStripMenuItem()
         TeachersFineToolStripMenuItem = New ToolStripMenuItem()
@@ -74,9 +77,6 @@ Partial Class Dashboard
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
-        GenreMaintenanceToolStripMenuItem = New ToolStripMenuItem()
-        SectionMaintenanceToolStripMenuItem = New ToolStripMenuItem()
-        GradeLevelMaintenanceToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         Guna2Panel1.SuspendLayout()
         Guna2Panel3.SuspendLayout()
@@ -172,6 +172,30 @@ Partial Class Dashboard
         StudentMaintenanceToolStripMenuItem.Name = "StudentMaintenanceToolStripMenuItem"
         StudentMaintenanceToolStripMenuItem.Size = New Size(372, 36)
         StudentMaintenanceToolStripMenuItem.Text = "Student maintenance"
+        ' 
+        ' GenreMaintenanceToolStripMenuItem
+        ' 
+        GenreMaintenanceToolStripMenuItem.BackColor = Color.Maroon
+        GenreMaintenanceToolStripMenuItem.ForeColor = Color.Pink
+        GenreMaintenanceToolStripMenuItem.Name = "GenreMaintenanceToolStripMenuItem"
+        GenreMaintenanceToolStripMenuItem.Size = New Size(372, 36)
+        GenreMaintenanceToolStripMenuItem.Text = "Genre Maintenance"
+        ' 
+        ' SectionMaintenanceToolStripMenuItem
+        ' 
+        SectionMaintenanceToolStripMenuItem.BackColor = Color.Maroon
+        SectionMaintenanceToolStripMenuItem.ForeColor = Color.Pink
+        SectionMaintenanceToolStripMenuItem.Name = "SectionMaintenanceToolStripMenuItem"
+        SectionMaintenanceToolStripMenuItem.Size = New Size(372, 36)
+        SectionMaintenanceToolStripMenuItem.Text = "Section Maintenance"
+        ' 
+        ' GradeLevelMaintenanceToolStripMenuItem
+        ' 
+        GradeLevelMaintenanceToolStripMenuItem.BackColor = Color.Maroon
+        GradeLevelMaintenanceToolStripMenuItem.ForeColor = Color.Pink
+        GradeLevelMaintenanceToolStripMenuItem.Name = "GradeLevelMaintenanceToolStripMenuItem"
+        GradeLevelMaintenanceToolStripMenuItem.Size = New Size(372, 36)
+        GradeLevelMaintenanceToolStripMenuItem.Text = "Grade Level Maintenance"
         ' 
         ' LibrarianProfileToolStripMenuItem
         ' 
@@ -504,30 +528,6 @@ Partial Class Dashboard
         Guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4
         Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 12F)
         Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 31
-        ' 
-        ' GenreMaintenanceToolStripMenuItem
-        ' 
-        GenreMaintenanceToolStripMenuItem.BackColor = Color.Maroon
-        GenreMaintenanceToolStripMenuItem.ForeColor = Color.Pink
-        GenreMaintenanceToolStripMenuItem.Name = "GenreMaintenanceToolStripMenuItem"
-        GenreMaintenanceToolStripMenuItem.Size = New Size(372, 36)
-        GenreMaintenanceToolStripMenuItem.Text = "Genre Maintenance"
-        ' 
-        ' SectionMaintenanceToolStripMenuItem
-        ' 
-        SectionMaintenanceToolStripMenuItem.BackColor = Color.Maroon
-        SectionMaintenanceToolStripMenuItem.ForeColor = Color.Pink
-        SectionMaintenanceToolStripMenuItem.Name = "SectionMaintenanceToolStripMenuItem"
-        SectionMaintenanceToolStripMenuItem.Size = New Size(372, 36)
-        SectionMaintenanceToolStripMenuItem.Text = "Section Maintenance"
-        ' 
-        ' GradeLevelMaintenanceToolStripMenuItem
-        ' 
-        GradeLevelMaintenanceToolStripMenuItem.BackColor = Color.Maroon
-        GradeLevelMaintenanceToolStripMenuItem.ForeColor = Color.Pink
-        GradeLevelMaintenanceToolStripMenuItem.Name = "GradeLevelMaintenanceToolStripMenuItem"
-        GradeLevelMaintenanceToolStripMenuItem.Size = New Size(372, 36)
-        GradeLevelMaintenanceToolStripMenuItem.Text = "Grade Level Maintenance"
         ' 
         ' Dashboard
         ' 

@@ -62,4 +62,19 @@
         FinesStudents.Show()
         Me.Hide()
     End Sub
+
+    Private Sub SectionMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SectionMaintenanceToolStripMenuItem.Click
+        SectionMaintenance.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub GenreMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GenreMaintenanceToolStripMenuItem.Click
+        GenreMaintenance.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub GradeLevelMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GradeLevelMaintenanceToolStripMenuItem.Click
+        GradeLevelMaintenance.Show()
+        Me.Hide()
+    End Sub
 End Class
