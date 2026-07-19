@@ -74,6 +74,9 @@ Partial Class Dashboard
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
+        GenreMaintenanceToolStripMenuItem = New ToolStripMenuItem()
+        SectionMaintenanceToolStripMenuItem = New ToolStripMenuItem()
+        GradeLevelMaintenanceToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         Guna2Panel1.SuspendLayout()
         Guna2Panel3.SuspendLayout()
@@ -99,7 +102,7 @@ Partial Class Dashboard
         ' 
         ' MaintenanceToolStripMenuItem
         ' 
-        MaintenanceToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {SupplierMaintenanceToolStripMenuItem, BookMaintenanceToolStripMenuItem, CategoryMaintenanceToolStripMenuItem, AuthorMaintenanceToolStripMenuItem, PublisherMaintenanceToolStripMenuItem, LibrarianMaintenanceToolStripMenuItem, TeacherMaintenanceToolStripMenuItem, StudentMaintenanceToolStripMenuItem})
+        MaintenanceToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {SupplierMaintenanceToolStripMenuItem, BookMaintenanceToolStripMenuItem, CategoryMaintenanceToolStripMenuItem, AuthorMaintenanceToolStripMenuItem, PublisherMaintenanceToolStripMenuItem, LibrarianMaintenanceToolStripMenuItem, TeacherMaintenanceToolStripMenuItem, StudentMaintenanceToolStripMenuItem, GenreMaintenanceToolStripMenuItem, SectionMaintenanceToolStripMenuItem, GradeLevelMaintenanceToolStripMenuItem})
         MaintenanceToolStripMenuItem.ForeColor = Color.Pink
         MaintenanceToolStripMenuItem.Name = "MaintenanceToolStripMenuItem"
         MaintenanceToolStripMenuItem.Size = New Size(222, 36)
@@ -111,7 +114,7 @@ Partial Class Dashboard
         SupplierMaintenanceToolStripMenuItem.BackColor = Color.Maroon
         SupplierMaintenanceToolStripMenuItem.ForeColor = Color.Pink
         SupplierMaintenanceToolStripMenuItem.Name = "SupplierMaintenanceToolStripMenuItem"
-        SupplierMaintenanceToolStripMenuItem.Size = New Size(345, 36)
+        SupplierMaintenanceToolStripMenuItem.Size = New Size(372, 36)
         SupplierMaintenanceToolStripMenuItem.Text = "Supplier Maintenance"
         ' 
         ' BookMaintenanceToolStripMenuItem
@@ -119,7 +122,7 @@ Partial Class Dashboard
         BookMaintenanceToolStripMenuItem.BackColor = Color.Maroon
         BookMaintenanceToolStripMenuItem.ForeColor = Color.Pink
         BookMaintenanceToolStripMenuItem.Name = "BookMaintenanceToolStripMenuItem"
-        BookMaintenanceToolStripMenuItem.Size = New Size(345, 36)
+        BookMaintenanceToolStripMenuItem.Size = New Size(372, 36)
         BookMaintenanceToolStripMenuItem.Text = "Book Maintenance"
         ' 
         ' CategoryMaintenanceToolStripMenuItem
@@ -127,7 +130,7 @@ Partial Class Dashboard
         CategoryMaintenanceToolStripMenuItem.BackColor = Color.Maroon
         CategoryMaintenanceToolStripMenuItem.ForeColor = Color.Pink
         CategoryMaintenanceToolStripMenuItem.Name = "CategoryMaintenanceToolStripMenuItem"
-        CategoryMaintenanceToolStripMenuItem.Size = New Size(345, 36)
+        CategoryMaintenanceToolStripMenuItem.Size = New Size(372, 36)
         CategoryMaintenanceToolStripMenuItem.Text = "Category Maintenance"
         ' 
         ' AuthorMaintenanceToolStripMenuItem
@@ -135,7 +138,7 @@ Partial Class Dashboard
         AuthorMaintenanceToolStripMenuItem.BackColor = Color.Maroon
         AuthorMaintenanceToolStripMenuItem.ForeColor = Color.Pink
         AuthorMaintenanceToolStripMenuItem.Name = "AuthorMaintenanceToolStripMenuItem"
-        AuthorMaintenanceToolStripMenuItem.Size = New Size(345, 36)
+        AuthorMaintenanceToolStripMenuItem.Size = New Size(372, 36)
         AuthorMaintenanceToolStripMenuItem.Text = "Author Maintenance"
         ' 
         ' PublisherMaintenanceToolStripMenuItem
@@ -143,7 +146,7 @@ Partial Class Dashboard
         PublisherMaintenanceToolStripMenuItem.BackColor = Color.Maroon
         PublisherMaintenanceToolStripMenuItem.ForeColor = Color.Pink
         PublisherMaintenanceToolStripMenuItem.Name = "PublisherMaintenanceToolStripMenuItem"
-        PublisherMaintenanceToolStripMenuItem.Size = New Size(345, 36)
+        PublisherMaintenanceToolStripMenuItem.Size = New Size(372, 36)
         PublisherMaintenanceToolStripMenuItem.Text = "Publisher Maintenance"
         ' 
         ' LibrarianMaintenanceToolStripMenuItem
@@ -151,7 +154,7 @@ Partial Class Dashboard
         LibrarianMaintenanceToolStripMenuItem.BackColor = Color.Maroon
         LibrarianMaintenanceToolStripMenuItem.ForeColor = Color.Pink
         LibrarianMaintenanceToolStripMenuItem.Name = "LibrarianMaintenanceToolStripMenuItem"
-        LibrarianMaintenanceToolStripMenuItem.Size = New Size(345, 36)
+        LibrarianMaintenanceToolStripMenuItem.Size = New Size(372, 36)
         LibrarianMaintenanceToolStripMenuItem.Text = "Librarian Maintenance"
         ' 
         ' TeacherMaintenanceToolStripMenuItem
@@ -159,7 +162,7 @@ Partial Class Dashboard
         TeacherMaintenanceToolStripMenuItem.BackColor = Color.Maroon
         TeacherMaintenanceToolStripMenuItem.ForeColor = Color.Pink
         TeacherMaintenanceToolStripMenuItem.Name = "TeacherMaintenanceToolStripMenuItem"
-        TeacherMaintenanceToolStripMenuItem.Size = New Size(345, 36)
+        TeacherMaintenanceToolStripMenuItem.Size = New Size(372, 36)
         TeacherMaintenanceToolStripMenuItem.Text = "Teacher Maintenance"
         ' 
         ' StudentMaintenanceToolStripMenuItem
@@ -167,7 +170,7 @@ Partial Class Dashboard
         StudentMaintenanceToolStripMenuItem.BackColor = Color.Maroon
         StudentMaintenanceToolStripMenuItem.ForeColor = Color.Pink
         StudentMaintenanceToolStripMenuItem.Name = "StudentMaintenanceToolStripMenuItem"
-        StudentMaintenanceToolStripMenuItem.Size = New Size(345, 36)
+        StudentMaintenanceToolStripMenuItem.Size = New Size(372, 36)
         StudentMaintenanceToolStripMenuItem.Text = "Student maintenance"
         ' 
         ' LibrarianProfileToolStripMenuItem
@@ -242,7 +245,7 @@ Partial Class Dashboard
         Guna2Panel1.Controls.Add(Guna2HtmlLabel1)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel3)
         Guna2Panel1.CustomizableEdges = CustomizableEdges1
-        Guna2Panel1.Location = New Point(385, 85)
+        Guna2Panel1.Location = New Point(390, 81)
         Guna2Panel1.Name = "Guna2Panel1"
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2Panel1.Size = New Size(163, 214)
@@ -280,7 +283,7 @@ Partial Class Dashboard
         Guna2Panel3.Controls.Add(Guna2HtmlLabel6)
         Guna2Panel3.Controls.Add(Guna2HtmlLabel7)
         Guna2Panel3.CustomizableEdges = CustomizableEdges3
-        Guna2Panel3.Location = New Point(1282, 85)
+        Guna2Panel3.Location = New Point(1287, 81)
         Guna2Panel3.Name = "Guna2Panel3"
         Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2Panel3.Size = New Size(163, 214)
@@ -318,7 +321,7 @@ Partial Class Dashboard
         Guna2Panel4.Controls.Add(Guna2HtmlLabel5)
         Guna2Panel4.Controls.Add(Guna2HtmlLabel10)
         Guna2Panel4.CustomizableEdges = CustomizableEdges5
-        Guna2Panel4.Location = New Point(1053, 85)
+        Guna2Panel4.Location = New Point(1058, 81)
         Guna2Panel4.Name = "Guna2Panel4"
         Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         Guna2Panel4.Size = New Size(163, 214)
@@ -356,7 +359,7 @@ Partial Class Dashboard
         Guna2Panel5.Controls.Add(Guna2HtmlLabel13)
         Guna2Panel5.Controls.Add(Guna2HtmlLabel15)
         Guna2Panel5.CustomizableEdges = CustomizableEdges7
-        Guna2Panel5.Location = New Point(830, 85)
+        Guna2Panel5.Location = New Point(835, 81)
         Guna2Panel5.Name = "Guna2Panel5"
         Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         Guna2Panel5.Size = New Size(163, 214)
@@ -395,7 +398,7 @@ Partial Class Dashboard
         Guna2Panel6.Controls.Add(Guna2HtmlLabel17)
         Guna2Panel6.Controls.Add(Guna2HtmlLabel18)
         Guna2Panel6.CustomizableEdges = CustomizableEdges9
-        Guna2Panel6.Location = New Point(607, 85)
+        Guna2Panel6.Location = New Point(612, 81)
         Guna2Panel6.Name = "Guna2Panel6"
         Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2Panel6.Size = New Size(163, 214)
@@ -502,6 +505,30 @@ Partial Class Dashboard
         Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 12F)
         Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 31
         ' 
+        ' GenreMaintenanceToolStripMenuItem
+        ' 
+        GenreMaintenanceToolStripMenuItem.BackColor = Color.Maroon
+        GenreMaintenanceToolStripMenuItem.ForeColor = Color.Pink
+        GenreMaintenanceToolStripMenuItem.Name = "GenreMaintenanceToolStripMenuItem"
+        GenreMaintenanceToolStripMenuItem.Size = New Size(372, 36)
+        GenreMaintenanceToolStripMenuItem.Text = "Genre Maintenance"
+        ' 
+        ' SectionMaintenanceToolStripMenuItem
+        ' 
+        SectionMaintenanceToolStripMenuItem.BackColor = Color.Maroon
+        SectionMaintenanceToolStripMenuItem.ForeColor = Color.Pink
+        SectionMaintenanceToolStripMenuItem.Name = "SectionMaintenanceToolStripMenuItem"
+        SectionMaintenanceToolStripMenuItem.Size = New Size(372, 36)
+        SectionMaintenanceToolStripMenuItem.Text = "Section Maintenance"
+        ' 
+        ' GradeLevelMaintenanceToolStripMenuItem
+        ' 
+        GradeLevelMaintenanceToolStripMenuItem.BackColor = Color.Maroon
+        GradeLevelMaintenanceToolStripMenuItem.ForeColor = Color.Pink
+        GradeLevelMaintenanceToolStripMenuItem.Name = "GradeLevelMaintenanceToolStripMenuItem"
+        GradeLevelMaintenanceToolStripMenuItem.Size = New Size(372, 36)
+        GradeLevelMaintenanceToolStripMenuItem.Text = "Grade Level Maintenance"
+        ' 
         ' Dashboard
         ' 
         AutoScaleDimensions = New SizeF(9F, 21F)
@@ -570,4 +597,7 @@ Partial Class Dashboard
     Friend WithEvents StudentMaintenanceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TeachersFineToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents StudentsFineToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents GenreMaintenanceToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SectionMaintenanceToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents GradeLevelMaintenanceToolStripMenuItem As ToolStripMenuItem
 End Class

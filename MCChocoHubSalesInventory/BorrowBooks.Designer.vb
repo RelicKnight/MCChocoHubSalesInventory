@@ -49,6 +49,8 @@ Partial Class BorrowBooks
         Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2ComboBox2 = New Guna.UI2.WinForms.Guna2ComboBox()
         Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2DateTimePicker1 = New Guna.UI2.WinForms.Guna2DateTimePicker()
@@ -70,6 +72,8 @@ Partial Class BorrowBooks
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Guna2TextBox6 = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
+        Guna2ComboBox5 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Guna2HtmlLabel9 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -117,7 +121,7 @@ Partial Class BorrowBooks
         Guna2DateTimePicker1.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2DateTimePicker1.ForeColor = Color.Maroon
         Guna2DateTimePicker1.Format = DateTimePickerFormat.Long
-        Guna2DateTimePicker1.Location = New Point(36, 340)
+        Guna2DateTimePicker1.Location = New Point(37, 426)
         Guna2DateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         Guna2DateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Guna2DateTimePicker1.Name = "Guna2DateTimePicker1"
@@ -132,7 +136,7 @@ Partial Class BorrowBooks
         Guna2HtmlLabel1.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel1.ForeColor = Color.Maroon
         Guna2HtmlLabel1.ImeMode = ImeMode.Disable
-        Guna2HtmlLabel1.Location = New Point(36, 310)
+        Guna2HtmlLabel1.Location = New Point(37, 396)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(115, 24)
         Guna2HtmlLabel1.TabIndex = 82
@@ -196,8 +200,8 @@ Partial Class BorrowBooks
         Guna2ComboBox3.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2ComboBox3.ForeColor = Color.Maroon
         Guna2ComboBox3.ItemHeight = 30
-        Guna2ComboBox3.Items.AddRange(New Object() {"Ex I", "ExII", "Ex III"})
-        Guna2ComboBox3.Location = New Point(36, 262)
+        Guna2ComboBox3.Items.AddRange(New Object() {"Teacher", "Student"})
+        Guna2ComboBox3.Location = New Point(37, 348)
         Guna2ComboBox3.Name = "Guna2ComboBox3"
         Guna2ComboBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         Guna2ComboBox3.Size = New Size(318, 36)
@@ -209,7 +213,7 @@ Partial Class BorrowBooks
         Guna2HtmlLabel5.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel5.ForeColor = Color.Maroon
         Guna2HtmlLabel5.ImeMode = ImeMode.Disable
-        Guna2HtmlLabel5.Location = New Point(36, 232)
+        Guna2HtmlLabel5.Location = New Point(37, 318)
         Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
         Guna2HtmlLabel5.Size = New Size(78, 24)
         Guna2HtmlLabel5.TabIndex = 89
@@ -230,7 +234,7 @@ Partial Class BorrowBooks
         Guna2ComboBox4.ForeColor = Color.Maroon
         Guna2ComboBox4.ItemHeight = 30
         Guna2ComboBox4.Items.AddRange(New Object() {"Ex I", "ExII", "Ex III"})
-        Guna2ComboBox4.Location = New Point(36, 566)
+        Guna2ComboBox4.Location = New Point(37, 652)
         Guna2ComboBox4.Name = "Guna2ComboBox4"
         Guna2ComboBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2ComboBox4.Size = New Size(318, 36)
@@ -242,7 +246,7 @@ Partial Class BorrowBooks
         Guna2HtmlLabel6.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel6.ForeColor = Color.Maroon
         Guna2HtmlLabel6.ImeMode = ImeMode.Disable
-        Guna2HtmlLabel6.Location = New Point(36, 536)
+        Guna2HtmlLabel6.Location = New Point(37, 622)
         Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
         Guna2HtmlLabel6.Size = New Size(44, 24)
         Guna2HtmlLabel6.TabIndex = 91
@@ -259,7 +263,7 @@ Partial Class BorrowBooks
         Guna2DateTimePicker2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2DateTimePicker2.ForeColor = Color.Maroon
         Guna2DateTimePicker2.Format = DateTimePickerFormat.Long
-        Guna2DateTimePicker2.Location = New Point(36, 417)
+        Guna2DateTimePicker2.Location = New Point(37, 503)
         Guna2DateTimePicker2.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         Guna2DateTimePicker2.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Guna2DateTimePicker2.Name = "Guna2DateTimePicker2"
@@ -274,7 +278,7 @@ Partial Class BorrowBooks
         Guna2HtmlLabel7.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel7.ForeColor = Color.Maroon
         Guna2HtmlLabel7.ImeMode = ImeMode.Disable
-        Guna2HtmlLabel7.Location = New Point(36, 387)
+        Guna2HtmlLabel7.Location = New Point(37, 473)
         Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
         Guna2HtmlLabel7.Size = New Size(85, 24)
         Guna2HtmlLabel7.TabIndex = 93
@@ -291,7 +295,7 @@ Partial Class BorrowBooks
         Guna2DateTimePicker3.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2DateTimePicker3.ForeColor = Color.Maroon
         Guna2DateTimePicker3.Format = DateTimePickerFormat.Long
-        Guna2DateTimePicker3.Location = New Point(36, 492)
+        Guna2DateTimePicker3.Location = New Point(37, 578)
         Guna2DateTimePicker3.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         Guna2DateTimePicker3.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Guna2DateTimePicker3.Name = "Guna2DateTimePicker3"
@@ -306,7 +310,7 @@ Partial Class BorrowBooks
         Guna2HtmlLabel8.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel8.ForeColor = Color.Maroon
         Guna2HtmlLabel8.ImeMode = ImeMode.Disable
-        Guna2HtmlLabel8.Location = New Point(36, 462)
+        Guna2HtmlLabel8.Location = New Point(37, 548)
         Guna2HtmlLabel8.Name = "Guna2HtmlLabel8"
         Guna2HtmlLabel8.Size = New Size(109, 24)
         Guna2HtmlLabel8.TabIndex = 95
@@ -324,7 +328,7 @@ Partial Class BorrowBooks
         Guna2Button4.FillColor = Color.Maroon
         Guna2Button4.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button4.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button4.Location = New Point(35, 781)
+        Guna2Button4.Location = New Point(36, 867)
         Guna2Button4.Name = "Guna2Button4"
         Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Guna2Button4.Size = New Size(318, 45)
@@ -343,7 +347,7 @@ Partial Class BorrowBooks
         Guna2Button3.FillColor = Color.Maroon
         Guna2Button3.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button3.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button3.Location = New Point(36, 730)
+        Guna2Button3.Location = New Point(37, 816)
         Guna2Button3.Name = "Guna2Button3"
         Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Guna2Button3.Size = New Size(318, 45)
@@ -362,7 +366,7 @@ Partial Class BorrowBooks
         Guna2Button2.FillColor = Color.Maroon
         Guna2Button2.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button2.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button2.Location = New Point(35, 679)
+        Guna2Button2.Location = New Point(36, 765)
         Guna2Button2.Name = "Guna2Button2"
         Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         Guna2Button2.Size = New Size(318, 45)
@@ -381,7 +385,7 @@ Partial Class BorrowBooks
         Guna2Button1.FillColor = Color.Maroon
         Guna2Button1.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button1.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button1.Location = New Point(35, 628)
+        Guna2Button1.Location = New Point(36, 714)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         Guna2Button1.Size = New Size(318, 45)
@@ -439,7 +443,7 @@ Partial Class BorrowBooks
         Guna2DataGridView1.Location = New Point(374, 106)
         Guna2DataGridView1.Name = "Guna2DataGridView1"
         Guna2DataGridView1.RowHeadersVisible = False
-        Guna2DataGridView1.Size = New Size(1211, 720)
+        Guna2DataGridView1.Size = New Size(1272, 806)
         Guna2DataGridView1.TabIndex = 101
         Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
         Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 12F)
@@ -447,12 +451,47 @@ Partial Class BorrowBooks
         Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 12F)
         Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 31
         ' 
+        ' Guna2ComboBox5
+        ' 
+        Guna2ComboBox5.BackColor = Color.Transparent
+        Guna2ComboBox5.BorderColor = Color.FromArgb(CByte(252), CByte(245), CByte(238))
+        Guna2ComboBox5.BorderRadius = 5
+        Guna2ComboBox5.CustomizableEdges = CustomizableEdges25
+        Guna2ComboBox5.DrawMode = DrawMode.OwnerDrawFixed
+        Guna2ComboBox5.DropDownStyle = ComboBoxStyle.DropDownList
+        Guna2ComboBox5.FillColor = Color.FromArgb(CByte(252), CByte(245), CByte(238))
+        Guna2ComboBox5.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox5.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2ComboBox5.ForeColor = Color.Maroon
+        Guna2ComboBox5.ItemHeight = 30
+        Guna2ComboBox5.Items.AddRange(New Object() {"Ex I", "ExII", "Ex III"})
+        Guna2ComboBox5.Location = New Point(36, 269)
+        Guna2ComboBox5.Name = "Guna2ComboBox5"
+        Guna2ComboBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        Guna2ComboBox5.Size = New Size(318, 36)
+        Guna2ComboBox5.TabIndex = 104
+        ' 
+        ' Guna2HtmlLabel9
+        ' 
+        Guna2HtmlLabel9.BackColor = Color.Transparent
+        Guna2HtmlLabel9.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel9.ForeColor = Color.Maroon
+        Guna2HtmlLabel9.ImeMode = ImeMode.Disable
+        Guna2HtmlLabel9.Location = New Point(36, 239)
+        Guna2HtmlLabel9.Name = "Guna2HtmlLabel9"
+        Guna2HtmlLabel9.Size = New Size(127, 24)
+        Guna2HtmlLabel9.TabIndex = 103
+        Guna2HtmlLabel9.Text = "Borrower type:"
+        ' 
         ' BorrowBooks
         ' 
         AutoScaleDimensions = New SizeF(9F, 21F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Pink
-        ClientSize = New Size(1615, 848)
+        ClientSize = New Size(1681, 941)
+        Controls.Add(Guna2ComboBox5)
+        Controls.Add(Guna2HtmlLabel9)
         Controls.Add(Guna2TextBox6)
         Controls.Add(Guna2DataGridView1)
         Controls.Add(Guna2Button4)
@@ -504,4 +543,6 @@ Partial Class BorrowBooks
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2TextBox6 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2DataGridView1 As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents Guna2ComboBox5 As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Guna2HtmlLabel9 As Guna.UI2.WinForms.Guna2HtmlLabel
 End Class
