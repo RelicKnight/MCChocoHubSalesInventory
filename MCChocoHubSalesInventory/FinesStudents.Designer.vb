@@ -30,11 +30,14 @@ Partial Class FinesStudents
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         SuspendLayout()
         ' 
         ' Guna2HtmlLabel2
@@ -65,7 +68,7 @@ Partial Class FinesStudents
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2Button1.Size = New Size(579, 45)
         Guna2Button1.TabIndex = 92
-        Guna2Button1.Text = "SAVE"
+        Guna2Button1.Text = "BACK"
         ' 
         ' Guna2TextBox3
         ' 
@@ -142,12 +145,32 @@ Partial Class FinesStudents
         Guna2TextBox1.Size = New Size(579, 48)
         Guna2TextBox1.TabIndex = 89
         ' 
+        ' Guna2Button2
+        ' 
+        Guna2Button2.BorderColor = Color.FromArgb(CByte(238), CByte(105), CByte(131))
+        Guna2Button2.BorderRadius = 5
+        Guna2Button2.CustomizableEdges = CustomizableEdges9
+        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button2.FillColor = Color.Maroon
+        Guna2Button2.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2Button2.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
+        Guna2Button2.Location = New Point(30, 375)
+        Guna2Button2.Name = "Guna2Button2"
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2Button2.Size = New Size(579, 45)
+        Guna2Button2.TabIndex = 93
+        Guna2Button2.Text = "SAVE"
+        ' 
         ' FinesStudents
         ' 
         AutoScaleDimensions = New SizeF(9F, 21F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Pink
         ClientSize = New Size(651, 501)
+        Controls.Add(Guna2Button2)
         Controls.Add(Guna2Button1)
         Controls.Add(Guna2TextBox3)
         Controls.Add(Guna2TextBox2)
@@ -166,4 +189,5 @@ Partial Class FinesStudents
     Friend WithEvents Guna2TextBox3 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
 End Class
