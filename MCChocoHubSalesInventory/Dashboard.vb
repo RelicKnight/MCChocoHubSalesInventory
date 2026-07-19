@@ -30,7 +30,8 @@
     End Sub
 
     Private Sub TeacherMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeacherMaintenanceToolStripMenuItem.Click
-
+        TeacherMaintenance.Show()
+        Me.Hide()
     End Sub
 
     Private Sub StudentMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StudentMaintenanceToolStripMenuItem.Click

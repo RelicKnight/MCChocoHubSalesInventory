@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class StudentMaintenance
+Partial Class TeacherMaintenance
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -84,11 +84,11 @@ Partial Class StudentMaintenance
         Guna2Button4.FillColor = Color.Maroon
         Guna2Button4.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button4.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button4.Location = New Point(41, 808)
+        Guna2Button4.Location = New Point(29, 797)
         Guna2Button4.Name = "Guna2Button4"
         Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2Button4.Size = New Size(318, 45)
-        Guna2Button4.TabIndex = 79
+        Guna2Button4.TabIndex = 95
         Guna2Button4.Text = "BACK"
         ' 
         ' Guna2DateTimePicker1
@@ -102,13 +102,13 @@ Partial Class StudentMaintenance
         Guna2DateTimePicker1.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2DateTimePicker1.ForeColor = Color.Maroon
         Guna2DateTimePicker1.Format = DateTimePickerFormat.Long
-        Guna2DateTimePicker1.Location = New Point(41, 591)
+        Guna2DateTimePicker1.Location = New Point(29, 580)
         Guna2DateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         Guna2DateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Guna2DateTimePicker1.Name = "Guna2DateTimePicker1"
         Guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2DateTimePicker1.Size = New Size(318, 38)
-        Guna2DateTimePicker1.TabIndex = 78
+        Guna2DateTimePicker1.TabIndex = 94
         Guna2DateTimePicker1.Value = New Date(2026, 7, 16, 20, 23, 7, 962)
         ' 
         ' Guna2HtmlLabel1
@@ -117,10 +117,10 @@ Partial Class StudentMaintenance
         Guna2HtmlLabel1.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel1.ForeColor = Color.Maroon
         Guna2HtmlLabel1.ImeMode = ImeMode.Disable
-        Guna2HtmlLabel1.Location = New Point(41, 561)
+        Guna2HtmlLabel1.Location = New Point(29, 550)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(118, 24)
-        Guna2HtmlLabel1.TabIndex = 77
+        Guna2HtmlLabel1.TabIndex = 93
         Guna2HtmlLabel1.Text = "Date Created:"
         ' 
         ' Guna2HtmlLabel2
@@ -128,11 +128,11 @@ Partial Class StudentMaintenance
         Guna2HtmlLabel2.BackColor = Color.Transparent
         Guna2HtmlLabel2.Font = New Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel2.ForeColor = Color.Maroon
-        Guna2HtmlLabel2.Location = New Point(42, 42)
+        Guna2HtmlLabel2.Location = New Point(29, 34)
         Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Guna2HtmlLabel2.Size = New Size(355, 33)
-        Guna2HtmlLabel2.TabIndex = 76
-        Guna2HtmlLabel2.Text = "STUDENT INFORMATIONS"
+        Guna2HtmlLabel2.Size = New Size(360, 33)
+        Guna2HtmlLabel2.TabIndex = 92
+        Guna2HtmlLabel2.Text = "TEACHER INFORMATIONS"
         ' 
         ' Guna2TextBox6
         ' 
@@ -149,15 +149,15 @@ Partial Class StudentMaintenance
         Guna2TextBox6.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2TextBox6.ForeColor = Color.Maroon
         Guna2TextBox6.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox6.Location = New Point(382, 82)
+        Guna2TextBox6.Location = New Point(369, 74)
         Guna2TextBox6.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox6.Name = "Guna2TextBox6"
         Guna2TextBox6.PlaceholderForeColor = Color.Maroon
-        Guna2TextBox6.PlaceholderText = "Search Student..."
+        Guna2TextBox6.PlaceholderText = "Search Teacher..."
         Guna2TextBox6.SelectedText = ""
         Guna2TextBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         Guna2TextBox6.Size = New Size(640, 41)
-        Guna2TextBox6.TabIndex = 75
+        Guna2TextBox6.TabIndex = 91
         ' 
         ' Guna2DataGridView1
         ' 
@@ -182,11 +182,11 @@ Partial Class StudentMaintenance
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
         Guna2DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView1.Location = New Point(382, 130)
+        Guna2DataGridView1.Location = New Point(369, 122)
         Guna2DataGridView1.Name = "Guna2DataGridView1"
         Guna2DataGridView1.RowHeadersVisible = False
-        Guna2DataGridView1.Size = New Size(1182, 723)
-        Guna2DataGridView1.TabIndex = 74
+        Guna2DataGridView1.Size = New Size(1182, 720)
+        Guna2DataGridView1.TabIndex = 90
         Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
         Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 12F)
         Guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4
@@ -205,11 +205,11 @@ Partial Class StudentMaintenance
         Guna2Button3.FillColor = Color.Maroon
         Guna2Button3.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button3.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button3.Location = New Point(42, 757)
+        Guna2Button3.Location = New Point(30, 746)
         Guna2Button3.Name = "Guna2Button3"
         Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         Guna2Button3.Size = New Size(318, 45)
-        Guna2Button3.TabIndex = 73
+        Guna2Button3.TabIndex = 89
         Guna2Button3.Text = "DELETE"
         ' 
         ' Guna2Button2
@@ -224,11 +224,11 @@ Partial Class StudentMaintenance
         Guna2Button2.FillColor = Color.Maroon
         Guna2Button2.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button2.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button2.Location = New Point(41, 706)
+        Guna2Button2.Location = New Point(29, 695)
         Guna2Button2.Name = "Guna2Button2"
         Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2Button2.Size = New Size(318, 45)
-        Guna2Button2.TabIndex = 72
+        Guna2Button2.TabIndex = 88
         Guna2Button2.Text = "EDIT"
         ' 
         ' Guna2Button1
@@ -243,11 +243,11 @@ Partial Class StudentMaintenance
         Guna2Button1.FillColor = Color.Maroon
         Guna2Button1.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button1.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button1.Location = New Point(41, 655)
+        Guna2Button1.Location = New Point(29, 644)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         Guna2Button1.Size = New Size(318, 45)
-        Guna2Button1.TabIndex = 71
+        Guna2Button1.TabIndex = 87
         Guna2Button1.Text = "ADD"
         ' 
         ' Guna2ComboBox1
@@ -264,12 +264,12 @@ Partial Class StudentMaintenance
         Guna2ComboBox1.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2ComboBox1.ForeColor = Color.Maroon
         Guna2ComboBox1.ItemHeight = 30
-        Guna2ComboBox1.Items.AddRange(New Object() {"Student"})
-        Guna2ComboBox1.Location = New Point(42, 444)
+        Guna2ComboBox1.Items.AddRange(New Object() {"Teacher"})
+        Guna2ComboBox1.Location = New Point(29, 436)
         Guna2ComboBox1.Name = "Guna2ComboBox1"
         Guna2ComboBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         Guna2ComboBox1.Size = New Size(318, 36)
-        Guna2ComboBox1.TabIndex = 70
+        Guna2ComboBox1.TabIndex = 86
         ' 
         ' Guna2HtmlLabel4
         ' 
@@ -277,10 +277,10 @@ Partial Class StudentMaintenance
         Guna2HtmlLabel4.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel4.ForeColor = Color.Maroon
         Guna2HtmlLabel4.ImeMode = ImeMode.Disable
-        Guna2HtmlLabel4.Location = New Point(42, 414)
+        Guna2HtmlLabel4.Location = New Point(29, 406)
         Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
         Guna2HtmlLabel4.Size = New Size(89, 24)
-        Guna2HtmlLabel4.TabIndex = 69
+        Guna2HtmlLabel4.TabIndex = 85
         Guna2HtmlLabel4.Text = "User Role:"
         ' 
         ' Guna2TextBox5
@@ -298,7 +298,7 @@ Partial Class StudentMaintenance
         Guna2TextBox5.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2TextBox5.ForeColor = Color.Maroon
         Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox5.Location = New Point(42, 358)
+        Guna2TextBox5.Location = New Point(29, 350)
         Guna2TextBox5.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox5.Name = "Guna2TextBox5"
         Guna2TextBox5.PlaceholderForeColor = Color.Maroon
@@ -306,7 +306,7 @@ Partial Class StudentMaintenance
         Guna2TextBox5.SelectedText = ""
         Guna2TextBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Guna2TextBox5.Size = New Size(319, 48)
-        Guna2TextBox5.TabIndex = 68
+        Guna2TextBox5.TabIndex = 84
         ' 
         ' Guna2TextBox4
         ' 
@@ -323,7 +323,7 @@ Partial Class StudentMaintenance
         Guna2TextBox4.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2TextBox4.ForeColor = Color.Maroon
         Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Location = New Point(42, 289)
+        Guna2TextBox4.Location = New Point(29, 281)
         Guna2TextBox4.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox4.Name = "Guna2TextBox4"
         Guna2TextBox4.PlaceholderForeColor = Color.Maroon
@@ -331,7 +331,7 @@ Partial Class StudentMaintenance
         Guna2TextBox4.SelectedText = ""
         Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Guna2TextBox4.Size = New Size(319, 48)
-        Guna2TextBox4.TabIndex = 67
+        Guna2TextBox4.TabIndex = 83
         ' 
         ' Guna2TextBox3
         ' 
@@ -348,7 +348,7 @@ Partial Class StudentMaintenance
         Guna2TextBox3.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2TextBox3.ForeColor = Color.Maroon
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(41, 221)
+        Guna2TextBox3.Location = New Point(28, 213)
         Guna2TextBox3.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox3.Name = "Guna2TextBox3"
         Guna2TextBox3.PlaceholderForeColor = Color.Maroon
@@ -356,7 +356,7 @@ Partial Class StudentMaintenance
         Guna2TextBox3.SelectedText = ""
         Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         Guna2TextBox3.Size = New Size(319, 48)
-        Guna2TextBox3.TabIndex = 66
+        Guna2TextBox3.TabIndex = 82
         ' 
         ' Guna2TextBox2
         ' 
@@ -373,7 +373,7 @@ Partial Class StudentMaintenance
         Guna2TextBox2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2TextBox2.ForeColor = Color.Maroon
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(42, 152)
+        Guna2TextBox2.Location = New Point(29, 144)
         Guna2TextBox2.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PlaceholderForeColor = Color.Maroon
@@ -381,7 +381,7 @@ Partial Class StudentMaintenance
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         Guna2TextBox2.Size = New Size(319, 48)
-        Guna2TextBox2.TabIndex = 65
+        Guna2TextBox2.TabIndex = 81
         ' 
         ' Guna2TextBox1
         ' 
@@ -398,15 +398,15 @@ Partial Class StudentMaintenance
         Guna2TextBox1.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2TextBox1.ForeColor = Color.Maroon
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(42, 82)
+        Guna2TextBox1.Location = New Point(29, 74)
         Guna2TextBox1.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PlaceholderForeColor = Color.Maroon
-        Guna2TextBox1.PlaceholderText = "Student ID"
+        Guna2TextBox1.PlaceholderText = "Teacher's ID"
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         Guna2TextBox1.Size = New Size(319, 48)
-        Guna2TextBox1.TabIndex = 64
+        Guna2TextBox1.TabIndex = 80
         ' 
         ' Guna2ComboBox2
         ' 
@@ -422,12 +422,12 @@ Partial Class StudentMaintenance
         Guna2ComboBox2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2ComboBox2.ForeColor = Color.Maroon
         Guna2ComboBox2.ItemHeight = 30
-        Guna2ComboBox2.Items.AddRange(New Object() {"Ex I", "ExII", "Ex III"})
-        Guna2ComboBox2.Location = New Point(41, 520)
+        Guna2ComboBox2.Items.AddRange(New Object() {"Ex I", "Ex II", "Ex III"})
+        Guna2ComboBox2.Location = New Point(30, 508)
         Guna2ComboBox2.Name = "Guna2ComboBox2"
         Guna2ComboBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         Guna2ComboBox2.Size = New Size(318, 36)
-        Guna2ComboBox2.TabIndex = 81
+        Guna2ComboBox2.TabIndex = 97
         ' 
         ' Guna2HtmlLabel3
         ' 
@@ -435,18 +435,18 @@ Partial Class StudentMaintenance
         Guna2HtmlLabel3.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel3.ForeColor = Color.Maroon
         Guna2HtmlLabel3.ImeMode = ImeMode.Disable
-        Guna2HtmlLabel3.Location = New Point(41, 490)
+        Guna2HtmlLabel3.Location = New Point(30, 478)
         Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Guna2HtmlLabel3.Size = New Size(67, 24)
-        Guna2HtmlLabel3.TabIndex = 80
-        Guna2HtmlLabel3.Text = "Course:"
+        Guna2HtmlLabel3.Size = New Size(105, 24)
+        Guna2HtmlLabel3.TabIndex = 96
+        Guna2HtmlLabel3.Text = "Department:"
         ' 
-        ' StudentMaintenance
+        ' TeacherMaintenance
         ' 
         AutoScaleDimensions = New SizeF(9F, 21F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Pink
-        ClientSize = New Size(1590, 889)
+        ClientSize = New Size(1578, 869)
         Controls.Add(Guna2ComboBox2)
         Controls.Add(Guna2HtmlLabel3)
         Controls.Add(Guna2Button4)
@@ -466,9 +466,9 @@ Partial Class StudentMaintenance
         Controls.Add(Guna2TextBox2)
         Controls.Add(Guna2TextBox1)
         FormBorderStyle = FormBorderStyle.None
-        Name = "StudentMaintenance"
+        Name = "TeacherMaintenance"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "StudentMaintenance"
+        Text = "TeacherMaintenance"
         CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
