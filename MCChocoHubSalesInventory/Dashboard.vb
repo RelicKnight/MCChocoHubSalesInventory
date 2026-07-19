@@ -38,4 +38,18 @@
         StudentMaintenance.Show()
         Me.Hide()
     End Sub
+
+    Private Sub BookDeliveryToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BookDeliveryToolStripMenuItem.Click
+        BookDelivery.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub BorrowBooksToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BorrowBooksToolStripMenuItem.Click
+        BorrowBooks.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub TeachersSettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeachersSettingsToolStripMenuItem.Click
+
+    End Sub
 End Class
