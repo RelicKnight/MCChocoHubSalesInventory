@@ -1,28 +1,26 @@
 ﻿Public Class Dashboard
-    Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub SupplierMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SupplierMaintenanceToolStripMenuItem.Click
+        SupplierMaintenance.Show()
+        Me.Hide()
     End Sub
 
-
-
-    Private Sub MaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs)
-
+    Private Sub BookMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BookMaintenanceToolStripMenuItem.Click
+        BookMaintenance.Show()
+        Me.Hide()
     End Sub
 
-    Private Sub Maintenance_Opening(sender As Object, e As System.ComponentModel.CancelEventArgs)
-
+    Private Sub CategoryMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CategoryMaintenanceToolStripMenuItem.Click
+        CategoryMaintenance.Show()
+        Me.Hide()
     End Sub
 
-    Private Sub Guna2Panel1_Paint(sender As Object, e As PaintEventArgs)
-
+    Private Sub AuthorMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AuthorMaintenanceToolStripMenuItem.Click
+        AuthorMaintenance.Show()
+        Me.Hide()
     End Sub
 
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs)
-
-    End Sub
-
-    Private Sub Guna2TileButton1_Click(sender As Object, e As EventArgs) Handles Guna2TileButton1.Click
-        Maintenance.Show()
-        Hide()
+    Private Sub PublisherMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PublisherMaintenanceToolStripMenuItem.Click
+        PublisherMaintenance.Show()
+        Me.Hide()
     End Sub
 End Class
