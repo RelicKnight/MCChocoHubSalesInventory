@@ -32,12 +32,20 @@ Partial Class GenreMaintenance
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
+        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
+        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2HtmlLabel2
@@ -73,7 +81,7 @@ Partial Class GenreMaintenance
         Guna2TextBox1.PlaceholderText = "Genre:"
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2TextBox1.Size = New Size(579, 48)
+        Guna2TextBox1.Size = New Size(345, 48)
         Guna2TextBox1.TabIndex = 90
         ' 
         ' Guna2Button1
@@ -88,10 +96,10 @@ Partial Class GenreMaintenance
         Guna2Button1.FillColor = Color.Maroon
         Guna2Button1.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button1.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button1.Location = New Point(22, 276)
+        Guna2Button1.Location = New Point(22, 410)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2Button1.Size = New Size(579, 45)
+        Guna2Button1.Size = New Size(345, 45)
         Guna2Button1.TabIndex = 93
         Guna2Button1.Text = "EDIT"
         ' 
@@ -107,10 +115,10 @@ Partial Class GenreMaintenance
         Guna2Button2.FillColor = Color.Maroon
         Guna2Button2.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button2.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button2.Location = New Point(22, 327)
+        Guna2Button2.Location = New Point(22, 461)
         Guna2Button2.Name = "Guna2Button2"
         Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2Button2.Size = New Size(579, 45)
+        Guna2Button2.Size = New Size(345, 45)
         Guna2Button2.TabIndex = 94
         Guna2Button2.Text = "DELETE"
         ' 
@@ -126,10 +134,10 @@ Partial Class GenreMaintenance
         Guna2Button3.FillColor = Color.Maroon
         Guna2Button3.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button3.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button3.Location = New Point(22, 378)
+        Guna2Button3.Location = New Point(22, 512)
         Guna2Button3.Name = "Guna2Button3"
         Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2Button3.Size = New Size(579, 45)
+        Guna2Button3.Size = New Size(345, 45)
         Guna2Button3.TabIndex = 95
         Guna2Button3.Text = "BACK"
         ' 
@@ -145,19 +153,80 @@ Partial Class GenreMaintenance
         Guna2Button4.FillColor = Color.Maroon
         Guna2Button4.Font = New Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2Button4.ForeColor = Color.FromArgb(CByte(255), CByte(196), CByte(196))
-        Guna2Button4.Location = New Point(22, 225)
+        Guna2Button4.Location = New Point(22, 359)
         Guna2Button4.Name = "Guna2Button4"
         Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2Button4.Size = New Size(579, 45)
+        Guna2Button4.Size = New Size(345, 45)
         Guna2Button4.TabIndex = 96
         Guna2Button4.Text = "ADD"
+        ' 
+        ' Guna2DataGridView1
+        ' 
+        DataGridViewCellStyle1.BackColor = Color.White
+        Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 12F)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Guna2DataGridView1.ColumnHeadersHeight = 4
+        Guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.White
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 12F)
+        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
+        Guna2DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView1.Location = New Point(399, 137)
+        Guna2DataGridView1.Name = "Guna2DataGridView1"
+        Guna2DataGridView1.RowHeadersVisible = False
+        Guna2DataGridView1.Size = New Size(616, 420)
+        Guna2DataGridView1.TabIndex = 102
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 12F)
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4
+        Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 12F)
+        Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 31
+        ' 
+        ' Guna2TextBox2
+        ' 
+        Guna2TextBox2.BorderColor = Color.FromArgb(CByte(252), CByte(245), CByte(238))
+        Guna2TextBox2.BorderRadius = 5
+        Guna2TextBox2.CustomizableEdges = CustomizableEdges11
+        Guna2TextBox2.DefaultText = ""
+        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox2.FillColor = Color.FromArgb(CByte(252), CByte(245), CByte(238))
+        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2TextBox2.ForeColor = Color.Maroon
+        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox2.Location = New Point(399, 73)
+        Guna2TextBox2.Margin = New Padding(3, 4, 3, 4)
+        Guna2TextBox2.Name = "Guna2TextBox2"
+        Guna2TextBox2.PlaceholderForeColor = Color.Maroon
+        Guna2TextBox2.PlaceholderText = "Search Genre..."
+        Guna2TextBox2.SelectedText = ""
+        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Guna2TextBox2.Size = New Size(345, 48)
+        Guna2TextBox2.TabIndex = 103
         ' 
         ' GenreMaintenance
         ' 
         AutoScaleDimensions = New SizeF(9F, 21F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Pink
-        ClientSize = New Size(629, 450)
+        ClientSize = New Size(1047, 581)
+        Controls.Add(Guna2TextBox2)
+        Controls.Add(Guna2DataGridView1)
         Controls.Add(Guna2Button4)
         Controls.Add(Guna2Button3)
         Controls.Add(Guna2Button2)
@@ -168,6 +237,7 @@ Partial Class GenreMaintenance
         Name = "GenreMaintenance"
         StartPosition = FormStartPosition.CenterScreen
         Text = "GenreMaintenance"
+        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -178,4 +248,6 @@ Partial Class GenreMaintenance
     Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2DataGridView1 As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
 End Class
