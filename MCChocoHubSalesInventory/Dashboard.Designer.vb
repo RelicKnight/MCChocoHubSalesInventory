@@ -38,6 +38,7 @@ Partial Class Dashboard
         Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
         MenuStrip1 = New MenuStrip()
+        BooksToolStripMenuItem = New ToolStripMenuItem()
         MaintenanceToolStripMenuItem = New ToolStripMenuItem()
         SupplierMaintenanceToolStripMenuItem = New ToolStripMenuItem()
         BookMaintenanceToolStripMenuItem = New ToolStripMenuItem()
@@ -92,13 +93,21 @@ Partial Class Dashboard
         MenuStrip1.BackColor = Color.Maroon
         MenuStrip1.Dock = DockStyle.None
         MenuStrip1.Font = New Font("Goudy Old Style", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        MenuStrip1.Items.AddRange(New ToolStripItem() {MaintenanceToolStripMenuItem, LibrarianProfileToolStripMenuItem, TeachersSettingsToolStripMenuItem, InventoryToolStripMenuItem, BookDeliveryToolStripMenuItem, BorrowBooksToolStripMenuItem, MembershipToolStripMenuItem})
+        MenuStrip1.Items.AddRange(New ToolStripItem() {BooksToolStripMenuItem, MaintenanceToolStripMenuItem, LibrarianProfileToolStripMenuItem, TeachersSettingsToolStripMenuItem, InventoryToolStripMenuItem, BookDeliveryToolStripMenuItem, BorrowBooksToolStripMenuItem, MembershipToolStripMenuItem})
         MenuStrip1.LayoutStyle = ToolStripLayoutStyle.VerticalStackWithOverflow
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
         MenuStrip1.Size = New Size(229, 929)
         MenuStrip1.TabIndex = 1
         MenuStrip1.Text = "MenuStrip1"
+        ' 
+        ' BooksToolStripMenuItem
+        ' 
+        BooksToolStripMenuItem.ForeColor = Color.Pink
+        BooksToolStripMenuItem.Name = "BooksToolStripMenuItem"
+        BooksToolStripMenuItem.Size = New Size(222, 36)
+        BooksToolStripMenuItem.Text = "Books"
+        BooksToolStripMenuItem.TextAlign = ContentAlignment.MiddleLeft
         ' 
         ' MaintenanceToolStripMenuItem
         ' 
@@ -600,4 +609,5 @@ Partial Class Dashboard
     Friend WithEvents GenreMaintenanceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SectionMaintenanceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents GradeLevelMaintenanceToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BooksToolStripMenuItem As ToolStripMenuItem
 End Class
