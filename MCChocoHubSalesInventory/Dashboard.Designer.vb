@@ -22,21 +22,21 @@ Partial Class Dashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle10 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As DataGridViewCellStyle = New DataGridViewCellStyle()
         MenuStrip1 = New MenuStrip()
         BooksToolStripMenuItem = New ToolStripMenuItem()
         MaintenanceToolStripMenuItem = New ToolStripMenuItem()
@@ -52,9 +52,6 @@ Partial Class Dashboard
         SectionMaintenanceToolStripMenuItem = New ToolStripMenuItem()
         GradeLevelMaintenanceToolStripMenuItem = New ToolStripMenuItem()
         LibrarianProfileToolStripMenuItem = New ToolStripMenuItem()
-        TeachersSettingsToolStripMenuItem = New ToolStripMenuItem()
-        TeachersFineToolStripMenuItem = New ToolStripMenuItem()
-        StudentsFineToolStripMenuItem = New ToolStripMenuItem()
         InventoryToolStripMenuItem = New ToolStripMenuItem()
         BookDeliveryToolStripMenuItem = New ToolStripMenuItem()
         BorrowBooksToolStripMenuItem = New ToolStripMenuItem()
@@ -78,6 +75,9 @@ Partial Class Dashboard
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
+        TeachersFineToolStripMenuItem = New ToolStripMenuItem()
+        StudentsFineToolStripMenuItem = New ToolStripMenuItem()
+        TeachersSettingsToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         Guna2Panel1.SuspendLayout()
         Guna2Panel3.SuspendLayout()
@@ -106,7 +106,7 @@ Partial Class Dashboard
         BooksToolStripMenuItem.ForeColor = Color.Pink
         BooksToolStripMenuItem.Name = "BooksToolStripMenuItem"
         BooksToolStripMenuItem.Size = New Size(222, 36)
-        BooksToolStripMenuItem.Text = "Books"
+        BooksToolStripMenuItem.Text = "Books lists"
         BooksToolStripMenuItem.TextAlign = ContentAlignment.MiddleLeft
         ' 
         ' MaintenanceToolStripMenuItem
@@ -214,31 +214,6 @@ Partial Class Dashboard
         LibrarianProfileToolStripMenuItem.Text = "Librarian Profile"
         LibrarianProfileToolStripMenuItem.TextAlign = ContentAlignment.MiddleLeft
         ' 
-        ' TeachersSettingsToolStripMenuItem
-        ' 
-        TeachersSettingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {TeachersFineToolStripMenuItem, StudentsFineToolStripMenuItem})
-        TeachersSettingsToolStripMenuItem.ForeColor = Color.Pink
-        TeachersSettingsToolStripMenuItem.Name = "TeachersSettingsToolStripMenuItem"
-        TeachersSettingsToolStripMenuItem.Size = New Size(222, 36)
-        TeachersSettingsToolStripMenuItem.Text = "Fines Setting"
-        TeachersSettingsToolStripMenuItem.TextAlign = ContentAlignment.MiddleLeft
-        ' 
-        ' TeachersFineToolStripMenuItem
-        ' 
-        TeachersFineToolStripMenuItem.BackColor = Color.Maroon
-        TeachersFineToolStripMenuItem.ForeColor = Color.Pink
-        TeachersFineToolStripMenuItem.Name = "TeachersFineToolStripMenuItem"
-        TeachersFineToolStripMenuItem.Size = New Size(242, 36)
-        TeachersFineToolStripMenuItem.Text = "Teachers Fine"
-        ' 
-        ' StudentsFineToolStripMenuItem
-        ' 
-        StudentsFineToolStripMenuItem.BackColor = Color.Maroon
-        StudentsFineToolStripMenuItem.ForeColor = Color.Pink
-        StudentsFineToolStripMenuItem.Name = "StudentsFineToolStripMenuItem"
-        StudentsFineToolStripMenuItem.Size = New Size(242, 36)
-        StudentsFineToolStripMenuItem.Text = "Students Fine"
-        ' 
         ' InventoryToolStripMenuItem
         ' 
         InventoryToolStripMenuItem.ForeColor = Color.Pink
@@ -277,10 +252,10 @@ Partial Class Dashboard
         Guna2Panel1.BackColor = Color.Maroon
         Guna2Panel1.Controls.Add(Guna2HtmlLabel1)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel3)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges1
+        Guna2Panel1.CustomizableEdges = CustomizableEdges37
         Guna2Panel1.Location = New Point(390, 81)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         Guna2Panel1.Size = New Size(163, 214)
         Guna2Panel1.TabIndex = 2
         ' 
@@ -315,10 +290,10 @@ Partial Class Dashboard
         Guna2Panel3.BackColor = Color.Maroon
         Guna2Panel3.Controls.Add(Guna2HtmlLabel6)
         Guna2Panel3.Controls.Add(Guna2HtmlLabel7)
-        Guna2Panel3.CustomizableEdges = CustomizableEdges3
+        Guna2Panel3.CustomizableEdges = CustomizableEdges39
         Guna2Panel3.Location = New Point(1287, 81)
         Guna2Panel3.Name = "Guna2Panel3"
-        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges40
         Guna2Panel3.Size = New Size(163, 214)
         Guna2Panel3.TabIndex = 8
         ' 
@@ -353,10 +328,10 @@ Partial Class Dashboard
         Guna2Panel4.BackColor = Color.Maroon
         Guna2Panel4.Controls.Add(Guna2HtmlLabel5)
         Guna2Panel4.Controls.Add(Guna2HtmlLabel10)
-        Guna2Panel4.CustomizableEdges = CustomizableEdges5
+        Guna2Panel4.CustomizableEdges = CustomizableEdges41
         Guna2Panel4.Location = New Point(1058, 81)
         Guna2Panel4.Name = "Guna2Panel4"
-        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges42
         Guna2Panel4.Size = New Size(163, 214)
         Guna2Panel4.TabIndex = 8
         ' 
@@ -391,10 +366,10 @@ Partial Class Dashboard
         Guna2Panel5.BackColor = Color.Maroon
         Guna2Panel5.Controls.Add(Guna2HtmlLabel13)
         Guna2Panel5.Controls.Add(Guna2HtmlLabel15)
-        Guna2Panel5.CustomizableEdges = CustomizableEdges7
+        Guna2Panel5.CustomizableEdges = CustomizableEdges43
         Guna2Panel5.Location = New Point(835, 81)
         Guna2Panel5.Name = "Guna2Panel5"
-        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges44
         Guna2Panel5.Size = New Size(163, 214)
         Guna2Panel5.TabIndex = 8
         ' 
@@ -430,10 +405,10 @@ Partial Class Dashboard
         Guna2Panel6.Controls.Add(Guna2HtmlLabel16)
         Guna2Panel6.Controls.Add(Guna2HtmlLabel17)
         Guna2Panel6.Controls.Add(Guna2HtmlLabel18)
-        Guna2Panel6.CustomizableEdges = CustomizableEdges9
+        Guna2Panel6.CustomizableEdges = CustomizableEdges45
         Guna2Panel6.Location = New Point(612, 81)
         Guna2Panel6.Name = "Guna2Panel6"
-        Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges46
         Guna2Panel6.Size = New Size(163, 214)
         Guna2Panel6.TabIndex = 8
         ' 
@@ -476,7 +451,7 @@ Partial Class Dashboard
         ' 
         Guna2Button1.BorderColor = Color.FromArgb(CByte(238), CByte(105), CByte(131))
         Guna2Button1.BorderRadius = 5
-        Guna2Button1.CustomizableEdges = CustomizableEdges11
+        Guna2Button1.CustomizableEdges = CustomizableEdges47
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -486,7 +461,7 @@ Partial Class Dashboard
         Guna2Button1.ForeColor = Color.Pink
         Guna2Button1.Location = New Point(1402, 12)
         Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges48
         Guna2Button1.Size = New Size(180, 45)
         Guna2Button1.TabIndex = 9
         Guna2Button1.Text = "Logout"
@@ -506,26 +481,26 @@ Partial Class Dashboard
         ' 
         ' Guna2DataGridView1
         ' 
-        DataGridViewCellStyle1.BackColor = Color.White
-        Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 12F)
-        DataGridViewCellStyle2.ForeColor = Color.White
-        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
-        Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle10.BackColor = Color.White
+        Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle11.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle11.Font = New Font("Segoe UI", 12F)
+        DataGridViewCellStyle11.ForeColor = Color.White
+        DataGridViewCellStyle11.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle11.WrapMode = DataGridViewTriState.True
+        Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle11
         Guna2DataGridView1.ColumnHeadersHeight = 4
         Guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = Color.White
-        DataGridViewCellStyle3.Font = New Font("Segoe UI", 12F)
-        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
-        Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = Color.White
+        DataGridViewCellStyle12.Font = New Font("Segoe UI", 12F)
+        DataGridViewCellStyle12.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle12.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridViewCellStyle12.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle12.WrapMode = DataGridViewTriState.False
+        Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle12
         Guna2DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         Guna2DataGridView1.Location = New Point(230, 335)
         Guna2DataGridView1.Name = "Guna2DataGridView1"
@@ -537,6 +512,31 @@ Partial Class Dashboard
         Guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4
         Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 12F)
         Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 31
+        ' 
+        ' TeachersFineToolStripMenuItem
+        ' 
+        TeachersFineToolStripMenuItem.BackColor = Color.Maroon
+        TeachersFineToolStripMenuItem.ForeColor = Color.Pink
+        TeachersFineToolStripMenuItem.Name = "TeachersFineToolStripMenuItem"
+        TeachersFineToolStripMenuItem.Size = New Size(242, 36)
+        TeachersFineToolStripMenuItem.Text = "Teachers Fine"
+        ' 
+        ' StudentsFineToolStripMenuItem
+        ' 
+        StudentsFineToolStripMenuItem.BackColor = Color.Maroon
+        StudentsFineToolStripMenuItem.ForeColor = Color.Pink
+        StudentsFineToolStripMenuItem.Name = "StudentsFineToolStripMenuItem"
+        StudentsFineToolStripMenuItem.Size = New Size(242, 36)
+        StudentsFineToolStripMenuItem.Text = "Students Fine"
+        ' 
+        ' TeachersSettingsToolStripMenuItem
+        ' 
+        TeachersSettingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {TeachersFineToolStripMenuItem, StudentsFineToolStripMenuItem})
+        TeachersSettingsToolStripMenuItem.ForeColor = Color.Pink
+        TeachersSettingsToolStripMenuItem.Name = "TeachersSettingsToolStripMenuItem"
+        TeachersSettingsToolStripMenuItem.Size = New Size(222, 36)
+        TeachersSettingsToolStripMenuItem.Text = "Fines Setting"
+        TeachersSettingsToolStripMenuItem.TextAlign = ContentAlignment.MiddleLeft
         ' 
         ' Dashboard
         ' 
@@ -572,7 +572,6 @@ Partial Class Dashboard
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents MaintenanceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LibrarianProfileToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents TeachersSettingsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents InventoryToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BookDeliveryToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BorrowBooksToolStripMenuItem As ToolStripMenuItem
@@ -604,10 +603,11 @@ Partial Class Dashboard
     Friend WithEvents LibrarianMaintenanceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TeacherMaintenanceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents StudentMaintenanceToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents TeachersFineToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents StudentsFineToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents GenreMaintenanceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SectionMaintenanceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents GradeLevelMaintenanceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BooksToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents TeachersSettingsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents TeachersFineToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents StudentsFineToolStripMenuItem As ToolStripMenuItem
 End Class

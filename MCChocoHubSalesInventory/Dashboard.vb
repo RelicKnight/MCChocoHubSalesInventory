@@ -49,18 +49,18 @@
         Me.Hide()
     End Sub
 
-    Private Sub TeachersSettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeachersSettingsToolStripMenuItem.Click
+    Private Sub TeachersSettingsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub TeachersFineToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TeachersFineToolStripMenuItem.Click
-        FinesTeacher.Show()
-        Me.Hide()
+    Private Sub TeachersFineToolStripMenuItem_Click(sender As Object, e As EventArgs)
+        FinesTeacher.Show
+        Hide
     End Sub
 
-    Private Sub StudentsFineToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StudentsFineToolStripMenuItem.Click
-        FinesStudents.Show()
-        Me.Hide()
+    Private Sub StudentsFineToolStripMenuItem_Click(sender As Object, e As EventArgs)
+        FinesStudents.Show
+        Hide
     End Sub
 
     Private Sub SectionMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SectionMaintenanceToolStripMenuItem.Click

@@ -27,17 +27,13 @@ Partial Class Books
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2vScrollBar1 = New Guna.UI2.WinForms.Guna2VScrollBar()
         Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Panel1 = New Panel()
         Guna2Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2Panel1
         ' 
-        Guna2Panel1.Controls.Add(Panel1)
-        Guna2Panel1.Controls.Add(Guna2vScrollBar1)
         Guna2Panel1.Controls.Add(Guna2Button3)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel2)
         Guna2Panel1.CustomizableEdges = CustomizableEdges3
@@ -47,18 +43,6 @@ Partial Class Books
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2Panel1.Size = New Size(1565, 922)
         Guna2Panel1.TabIndex = 0
-        ' 
-        ' Guna2vScrollBar1
-        ' 
-        Guna2vScrollBar1.FillColor = Color.Pink
-        Guna2vScrollBar1.InUpdate = False
-        Guna2vScrollBar1.LargeChange = 10
-        Guna2vScrollBar1.Location = New Point(1547, 0)
-        Guna2vScrollBar1.Name = "Guna2vScrollBar1"
-        Guna2vScrollBar1.ScrollbarSize = 18
-        Guna2vScrollBar1.Size = New Size(18, 922)
-        Guna2vScrollBar1.TabIndex = 118
-        Guna2vScrollBar1.ThumbColor = Color.Maroon
         ' 
         ' Guna2Button3
         ' 
@@ -90,14 +74,6 @@ Partial Class Books
         Guna2HtmlLabel2.TabIndex = 6
         Guna2HtmlLabel2.Text = "LIST OF BOOKS"
         ' 
-        ' Panel1
-        ' 
-        Panel1.BackColor = Color.Maroon
-        Panel1.Location = New Point(346, 890)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(200, 740)
-        Panel1.TabIndex = 119
-        ' 
         ' Books
         ' 
         AutoScaleDimensions = New SizeF(9F, 21F)
@@ -117,6 +93,4 @@ Partial Class Books
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2vScrollBar1 As Guna.UI2.WinForms.Guna2VScrollBar
-    Friend WithEvents Panel1 As Panel
 End Class
