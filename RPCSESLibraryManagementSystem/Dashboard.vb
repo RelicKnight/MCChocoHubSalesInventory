@@ -53,16 +53,6 @@
 
     End Sub
 
-    Private Sub TeachersFineToolStripMenuItem_Click(sender As Object, e As EventArgs)
-        FinesTeacher.Show
-        Hide
-    End Sub
-
-    Private Sub StudentsFineToolStripMenuItem_Click(sender As Object, e As EventArgs)
-        FinesStudents.Show
-        Hide
-    End Sub
-
     Private Sub SectionMaintenanceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SectionMaintenanceToolStripMenuItem.Click
         SectionMaintenance.Show()
         Me.Hide()
